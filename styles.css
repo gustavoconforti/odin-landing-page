@@ -138,6 +138,7 @@ html *{
   font-style: italic;
   max-width: 800px;
   margin-bottom: 22px;
+  color: #1f2937;
 }
 
 .quote-author {
@@ -146,6 +147,7 @@ html *{
   max-width: 1050px;
   padding-right: 32px;
   text-align: end;
+  color: #1f2937;
 }
 
 .action-bg {
