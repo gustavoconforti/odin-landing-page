@@ -5,8 +5,9 @@ html *{
   padding: 0;
 }
 
-.hero-wrapper {
+.hero-bg {
   background-color: #1f2937;
+  padding: 0px 48px;
 }
 
 .hero-header, 
@@ -14,15 +15,17 @@ html *{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 440px;
+  max-width: 1050px;
 }
 
 .hero-header {
+  margin: 0 auto;
   padding-top: 24px;
-  margin-bottom: 140px;
+  margin-bottom: 140px;  
 }
 
 .hero-content {
+  margin: 0 auto;
   margin-top: 140px;
   padding-bottom: 140px;
 }
@@ -83,6 +86,7 @@ button {
 
 .info-wrapper {
   text-align: center;
+  padding: 0px 24px;
 }
 
 .info-wrapper h1 {
@@ -113,4 +117,43 @@ button {
 .info-text {
   color: #1f2937;
   font-weight: 300;
+}
+
+.quote-bg {
+  padding: 100px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-wrapper {
+  max-width: 1050px;
+  margin: 40px 0px;
+}
+
+.phrase {
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+  max-width: 800px;
+  margin-bottom: 12px;
+}
+
+.author {
+  font-size: 24px;
+  font-weight: 700;
+  max-width: 1050px;
+  padding-right: 32px;
+  text-align: end;
+}
+
+.action-bg {
+  padding: 100px;
+}
+
+.footer-bg {
+  padding: 100px;
+  background-color: #1f2937;
 }
